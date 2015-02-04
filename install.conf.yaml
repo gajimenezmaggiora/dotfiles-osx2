@@ -17,6 +17,10 @@
     # Textmate
     ~/.tm_properties: textmate/tm_properties
     
+    # Perl
+    ~/.perlcriticrc: perl/perlcriticrc
+    ~/.perltidyrc: perl/perltidyrc
+    
 
 - shell:
     - [git update-submodules, Installing/updating submodules]
