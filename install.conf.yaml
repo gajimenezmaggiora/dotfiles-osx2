@@ -8,6 +8,8 @@
     ~/.export: bash/export
     ~/.inputrc: bash/inputrc
     
+    ~/.osx: osx/osx
+    
     # Git
     ~/.gitignore: git/gitignore
     ~/.gitconfig: git/gitconfig
