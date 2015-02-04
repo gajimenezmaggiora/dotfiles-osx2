@@ -1,3 +1,20 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ["~"]
+
+- link:
+    # Bash
+    ~/.aliases: bash/aliases
+    ~/.bash_profile: bash/bash_profile
+    ~/.bash_prompt: bash/bash_prompt
+    ~/.export: bash/export
+    ~/.inputrc: bash/inputrc
+    
+    # Git
+    ~/.gitignore: git/gitignore
+    ~/.gitconfig: git/gitconfig
+    
+    # Textmate
+    ~/.tm_properties: textmate/tm_properties
+    
+
+- shell:
+    - [git update-submodules, Installing/updating submodules]
