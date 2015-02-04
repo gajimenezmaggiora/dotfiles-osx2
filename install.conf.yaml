@@ -8,6 +8,7 @@
     ~/.export: bash/export
     ~/.inputrc: bash/inputrc
     
+    # OSX
     ~/.osx: osx/osx
     
     # Git
@@ -23,6 +24,9 @@
     # Perl
     ~/.perlcriticrc: perl/perlcriticrc
     ~/.perltidyrc: perl/perltidyrc
+    
+    # Curl
+    ~/.curlrc: curl/curlrc
     
 
 - shell:
