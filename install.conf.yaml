@@ -34,6 +34,6 @@
     ~/.curlrc: curl/curlrc
 
 - shell:
-    - [git update-submodules, Update submodules]
-    - [brew.sh, Brewing]
+    - git update-submodules
+    - brew.sh
 

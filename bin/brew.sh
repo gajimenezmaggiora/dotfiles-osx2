@@ -7,7 +7,7 @@ brew update
 brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
-#brew install coreutils
+# brew install coreutils
 #echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 #brew install findutils
@@ -15,7 +15,7 @@ brew upgrade
 #brew install bash
 
 # Install wget with IRI support
-#brew install wget --enable-iri
+brew install wget --enable-iri
 
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
@@ -31,6 +31,7 @@ brew upgrade
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
 #brew install homebrew/dupes/screen
+brew install vim
 
 # Install other useful binaries
 #brew install ack
