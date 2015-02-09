@@ -23,6 +23,10 @@
     # Mercurial
     ~/.hgrc: hg/hgrc
     
+    # Vim
+    ~/.vimrc: vimrc
+    ~/.vim: vim/
+    
     # Textmate
     ~/.tm_properties: textmate/tm_properties
     
