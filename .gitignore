@@ -1,4 +1,5 @@
 # Ignore Vundle plugins (this will be managed by Vundle itself instead of git)
 vim/bundle
 
-
+# Ignore my SSH keys ;)
+ssh/
