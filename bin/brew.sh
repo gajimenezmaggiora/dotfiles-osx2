@@ -32,6 +32,7 @@ brew install wget --enable-iri
 #brew install homebrew/dupes/vim
 #brew install homebrew/dupes/screen
 brew install vim
+brew install perlbrew
 
 # Install other useful binaries
 #brew install ack
