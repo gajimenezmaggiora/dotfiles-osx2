@@ -63,8 +63,5 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
 
-# Mou
-alias mou="open /Applications/Mou.app"
-
 # MacDown
 alias down="open -a /Applications/MacDown.app"
