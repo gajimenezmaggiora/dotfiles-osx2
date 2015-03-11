@@ -65,3 +65,6 @@ alias whois="whois -h whois-servers.net"
 
 # Mou
 alias mou="open /Applications/Mou.app"
+
+# MacDown
+alias down="open -a /Applications/MacDown.app"

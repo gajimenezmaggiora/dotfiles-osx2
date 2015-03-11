@@ -1,2 +1,5 @@
 # Add .dotfiles to PATH
 PATH="$PATH:~/.dotfiles/bin"
+
+# Add Postgres.app to PATH
+PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
