@@ -65,3 +65,8 @@ alias whois="whois -h whois-servers.net"
 
 # MacDown
 alias down="open -a /Applications/MacDown.app"
+
+# Add alias for ssh and scp
+alias myssh='ssh -o "ProxyCommand ssh -W %h:%p gajimenez@gate.iadcs.org"'
+alias myscp='scp -rp -o "ProxyCommand ssh -W %h:%p gajimenez@gate.iadcs.org"'
+
